@@ -18,6 +18,14 @@
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",
+    "paths":[
+      "@todo_app/*":["src/app/todo/app/*"],
+      "@todo_dom/*":["src/app/todo/dom/*"],
+      "@todo_inf/*":["src/app/todo/inf/*"],
+      "@todo_ui/*":["src/app/todo/ui/*"],
+      "@serv/*":["src/app/serv/*"],
+      "@shared/*":["src/app/shared/*"],
+    ]
     "useDefineForClassFields": false,
     "lib": [
       "ES2022",
